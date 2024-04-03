@@ -20,7 +20,7 @@ body {
 
 section {
 	position: relative;
-	max-width: 600px;
+	max-width: 900px;
 	background-color: var(--main-background-color);
 	border-radius: 20px;
 	display: flex;
@@ -100,20 +100,20 @@ button:hover {
 	background-color: #EEEEEE;
 }
 
-.login {
+.Register {
 	font-size: 0.9rem;
 	color: #fff;
 	text-align: center;
 	margin: 25px 0 10px;
 }
 
-.login p a {
+.Register p a {
 	text-decoration: none;
 	color: var(--main-color);
 	font-weight: 500;
 }
 
-.login p a:hover {
+.Register p a:hover {
 	text-decoration: underline;
 }
 
@@ -140,7 +140,7 @@ button:hover {
 	margin:20px;
 }
 
-.login-options{
+.Register-options{
     display: flex;
     align-items: center;
     flex-direction:row;

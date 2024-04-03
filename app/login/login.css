@@ -20,7 +20,7 @@ body {
 
 section {
 	position: relative;
-	max-width: 500px;
+	max-width: 900px;
 	background-color: var(--main-background-color);
 	border-radius: 20px;
 	display: flex;

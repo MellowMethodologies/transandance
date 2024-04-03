@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import './style/navbar.css';
 
 export default function navBar(){	
 	return(
@@ -8,13 +9,13 @@ export default function navBar(){
 			</div>
 			<div className="nav-items">
 				<ul>
-					<li className="chat"><a href="#">
+					<li className="icons"><a href="#">
 						<Image className="house" src='/house.svg' alt='house' width={25} height={25}/></a></li>
-					<li className="chat"><a href="#">
+					<li className="icons"><a href="#">
 						<Image className="message" src='/message.svg' alt='message' width={25} height={25}/></a></li>
-					<li className="play"><a href="#">
+					<li className="icons"><a href="#">
 						<Image className="gamepad" src='/gamepad.svg' alt='gamepad' width={25} height={25}/></a></li>
-					<li className="profile"><a href="#">
+					<li className="icons"><a href="#">
 						<Image className="Vector" src='/Vector.svg' alt='Vector' width={25} height={25}/></a></li>
 				</ul>
 			</div>
