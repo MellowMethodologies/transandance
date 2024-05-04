@@ -1,21 +1,18 @@
-import React from 'react';
-import './login.css';
-import Image  from 'next/image';
+//create a 
+import Image from "next/image";
+import "./style.css";
 
-function login(){
-  // You'll likely add state for email, password, etc. with useState here
-
+export default function Home() {
   return (
     <section>
+
         <form>
             <h1>Login</h1>
             <div className="inputbox">
-                <ion-icon name="mail-outline"></ion-icon>
                 <input type="email" required />
                 <label label="">Email</label>
             </div>
             <div className="inputbox">
-                <ion-icon name="lock-closed-outline"></ion-icon>
                 <input type="password" required />
                 <label label="">Password</label>
             </div>
@@ -43,5 +40,3 @@ function login(){
     </section>
   );
 }
-
-export default login;
